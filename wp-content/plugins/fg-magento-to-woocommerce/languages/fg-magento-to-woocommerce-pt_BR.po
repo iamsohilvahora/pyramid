@@ -1,0 +1,609 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FG Magento to WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-12 06:25+0200\n"
+"PO-Revision-Date: 2019-08-01 07:19+0200\n"
+"Last-Translator: F. GILLES\n"
+"Language-Team: F. GILLES\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:123
+msgid "All new imported data will be deleted from WordPress."
+msgstr "Todos os novos dados importados serão excluídos do WordPress."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:124
+msgid "All content will be deleted from WordPress."
+msgstr "Todo o conteúdo será excluído do WordPress."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:125
+msgid "Please select a remove option."
+msgstr "Por favor, selecione uma opção de remoção."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:126
+msgid "IMPORT COMPLETED"
+msgstr "IMPORTAÇÃO CONCLUÍDA"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:127
+msgid "Content removed from WordPress"
+msgstr "Conteúdo removido do WordPress"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:128
+#: admin/class-fg-magento-to-woocommerce-admin.php:325
+msgid "Settings saved"
+msgstr "Configurações salvas"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:129
+msgid "Importing…"
+msgstr "Importando…"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:130
+msgid "IMPORT STOPPED BY USER"
+msgstr "IMPORTAÇÃO PARADA POR USUÁRIO"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:143
+msgid "Magento"
+msgstr "Magento"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:143
+msgid "Import Magento e-commerce solution to WooCommerce"
+msgstr "Importe a solução de e-commerce Magento para o WooCommerce"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:298
+msgid "The wp-content directory must be writable."
+msgstr "O diretório wp-content deve ser gravável."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:303
+#, php-format
+msgid "WordPress 4.4+ is required. Please <a href=\"%s\">update WordPress</a>."
+msgstr "WordPress 4.4+ é necessário. Por favor, <a href=\" %s \"> atualize o WordPress </a>."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:313
+#: admin/class-fg-magento-to-woocommerce-admin.php:360
+msgid "WordPress content removed"
+msgstr "Conteúdo WordPress removido"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:315
+#: admin/class-fg-magento-to-woocommerce-admin.php:362
+msgid "Couldn't remove content"
+msgstr "Não foi possível remover o conteúdo"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:336
+msgid "Connection successful"
+msgstr "Conexão bem sucedida"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:338
+msgid "Connection failed"
+msgstr "Conexão falhou"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:338
+msgid "See the errors in the log below"
+msgstr "Veja os erros na galeria abaixo"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:394
+msgid "Import Magento"
+msgstr "Importar Magento"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:395
+msgid "This plugin will import product categories, products, images and CMS from Magento to WooCommerce.<br />Compatible with Magento versions 1.3 to 2.1."
+msgstr "Este plugin irá importar categorias de produtos, produtos, imagens e CMS do Magento para o WooCommerce. Compatível com as versões 1.3 a 2.1 do Magento."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:396
+#, php-format
+msgid "For any issue, please read the <a href=\"%s\" target=\"_blank\">FAQ</a> first."
+msgstr "Para qualquer problema, leia as <a href=\" %s \" target=\"_blank\"> Perguntas frequentes </a> primeiro."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:430
+#, php-format
+msgid "%d post"
+msgid_plural "%d posts"
+msgstr[0] "%d post"
+msgstr[1] "%d posts"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:431
+#, php-format
+msgid "%d page"
+msgid_plural "%d pages"
+msgstr[0] "%d página"
+msgstr[1] "%d páginas"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:432
+#: admin/class-fg-magento-to-woocommerce-admin.php:1011
+#, php-format
+msgid "%d product category"
+msgid_plural "%d product categories"
+msgstr[0] "%d categoria de produto"
+msgstr[1] "%d categoria de produto"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:433
+#: admin/class-fg-magento-to-woocommerce-admin.php:1015
+#, php-format
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] "%d produto"
+msgstr[1] "%d produto"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:434
+#, php-format
+msgid "%d media"
+msgid_plural "%d medias"
+msgstr[0] "%d media"
+msgstr[1] "%d medias"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:463
+msgid "Instructions"
+msgstr "Instruções"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:469
+msgid "Options"
+msgstr "Opções"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:473
+msgid "FAQ"
+msgstr "FAQ"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:503
+msgid "PDO is required. Please enable it."
+msgstr "PDO é obrigatório. Por favor, habilite-o."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:512
+#: admin/class-fg-magento-to-woocommerce-admin.php:977
+msgid "Couldn't connect to the Magento database. Please check your parameters. And be sure the WordPress server can access the Magento database."
+msgstr "Não foi possível conectar-se ao banco de dados Magento. Por favor, verifique seus parâmetros. E tenha certeza que o servidor WordPress pode acessar o banco de dados Magento."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:512
+#, php-format
+msgid "Please read the <a href=\"%s\" target=\"_blank\">FAQ for the solution</a>."
+msgstr "Leia as <a href=\" %s \" target=\"_blank\"> Perguntas frequentes sobre a solução </a>."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:624
+#: admin/class-fg-magento-to-woocommerce-admin.php:1393
+msgid "Error:"
+msgstr "Erro:"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:886
+msgid "WooCommerce data deleted"
+msgstr "Dados do WooCommerce excluídos"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:892
+msgid "WooCommerce default data created"
+msgstr "Dados padrão do WooCommerce criados"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:970
+msgid "Connected with success to the Magento database"
+msgstr "Conectado com sucesso ao banco de dados Magento"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:992
+msgid "Error: the <a href=\"https://wordpress.org/plugins/woocommerce/\" target=\"_blank\">WooCommerce plugin</a> must be installed and activated to import the products."
+msgstr "Erro: o <a href=\"https://wordpress.org/plugins/woocommerce/\" target=\"_blank\"> plug-in WooCommerce </a>."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:1003
+msgid "Magento data found:"
+msgstr "Dados do Magento encontrados:"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:1007
+#, php-format
+msgid "%d CMS page"
+msgid_plural "%d CMS pages"
+msgstr[0] "%d página CMS"
+msgstr[1] "%d página CMS"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:1208
+msgid "The URL field is required to import the media."
+msgstr "O campo URL é necessário para importar a mídia."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:1425
+msgid "Importing articles..."
+msgstr "Importando artigos ..."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:1456
+#, php-format
+msgid "%d article imported"
+msgid_plural "%d articles imported"
+msgstr[0] "%d artigo importado"
+msgstr[1] "%d artigos importados"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:1549
+msgid "Importing product categories..."
+msgstr "Importando categorias de produtos ..."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:1612
+#, php-format
+msgid "%d product category imported"
+msgid_plural "%d product categories imported"
+msgstr[0] "%d categoria de produto importada"
+msgstr[1] "%d categorias de produtos importadas"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:1723
+msgid "Importing products..."
+msgstr "Importando produtos ..."
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:1754
+#, php-format
+msgid "%d product imported"
+msgid_plural "%d products imported"
+msgstr[0] "%d produto importado"
+msgstr[1] "%d produtos importados"
+
+#: admin/class-fg-magento-to-woocommerce-admin.php:2972
+#, php-format
+msgid "%d media imported"
+msgid_plural "%d medias imported"
+msgstr[0] "%d mídia importada"
+msgstr[1] "%d mídias importadas"
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:43
+#, php-format
+msgid "Your Magento database contains %s. You need the <a href=\"%s\" target=\"_blank\">Premium version</a> to import them."
+msgstr "Seu banco de dados Magento contém %s . Você precisa da <a href=\" %s \" target=\"_blank\"> versão Premium </a> para importá-los."
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:46
+#, php-format
+msgid "Your Magento database contains %1$s. You need the <a href=\"%3$s\" target=\"_blank\">%4$s</a> to import them."
+msgstr "Seu banco de dados Magento contém %1$s . Você precisa dos <a href=\" %3$s \" target=\"_blank\"> %4$s </a> para importá-los."
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:49
+#, php-format
+msgid "Your Magento database contains %1$s. You need the <a href=\"%2$s\" target=\"_blank\">Premium version</a> and the <a href=\"%3$s\" target=\"_blank\">%4$s</a> to import them."
+msgstr "Seu banco de dados Magento contém %1$s . Você precisa da <a href=\"%2$s\" %2$s versão Premium </a> e do <a href = \\ \" %3$s \" target = \\ \"_ blank \" > %4$s </a> para importá-los."
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:56
+msgid "several customers"
+msgstr "vários clientes"
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:63
+msgid "customer groups"
+msgstr "grupos de clientes"
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:63
+msgid "Customer Groups add-on"
+msgstr "Complemento de grupos de clientes"
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:70
+msgid "several languages"
+msgstr "vários idiomas"
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:70
+msgid "WPML add-on"
+msgstr "Complemento do WPML"
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:77
+msgid "manufacturers"
+msgstr "fabricantes"
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:77
+msgid "Brands add-on"
+msgstr "Marcas add-on"
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:84
+#, php-format
+msgid "Your Magento database contains some product options. If you have got many options combinations or if you get the message \"Too many variations\", you may need the <a href=\"%s\" target=\"_blank\">WooCommerce Product Add-Ons plugin</a> and the <a href=\"%s\" target=\"_blank\">Product Options add-on</a> to import the Magento options as add-ons instead of as variations."
+msgstr "Seu banco de dados Magento contém algumas opções de produtos. Se você tiver muitas opções ou se receber a mensagem \"Excesso de variações\", talvez seja necessário o <a href=\"%s\" target=\"_blank\"> plugin WooCommerce Product Add-Ons plugin </a> e o <a href=\" %s \" target=\"_blank\"> Product Options add-on </a> para importar as opções do Magento como complementos em vez de variações."
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:91
+#, php-format
+msgid "Your Magento database contains some custom order statuses. To import them, you need the <a href=\"%s\" target=\"_blank\">WooCommerce Order Status Manager plugin</a> and the <a href=\"%s\" target=\"_blank\">Custom Order Statuses add-on</a>."
+msgstr "Seu banco de dados Magento possui alguns status de pedidos personalizados. Para importá-los, você precisa do <a href=\" %s \" target=\"_blank\"> plug-in WooCommerce Order Status Manager </a> e do <a href = \\ \" %s \" target = \\ \" _blank \\ \"> complemento de status de pedido personalizado </a>."
+
+#: admin/class-fg-magento-to-woocommerce-modules-check.php:98
+#, php-format
+msgid "Your Magento database contains some bundle products. To import them, you need the <a href=\"%s\" target=\"_blank\">WooCommerce Product Bundles plugin</a> and the <a href=\"%s\" target=\"_blank\">Product Bundles add-on</a>."
+msgstr "Seu banco de dados Magento contém alguns produtos do pacote. Para importá-los, você precisa do <a href=\" %s \" target=\"_blank\"> plug-in WooCommerce Product Bundles </a> e do <a href = \\ \" %s \" target = \\ \"_ blank \\ \"> Complemento de pacotes de produtos </a>."
+
+#: admin/partials/actions.php:3
+msgid "Save settings"
+msgstr "Salvar configurações"
+
+#: admin/partials/actions.php:4
+msgid "Start / Resume the import"
+msgstr "Iniciar / retomar a importação"
+
+#: admin/partials/actions.php:6
+msgid "Stop import"
+msgstr "Parar importação"
+
+#: admin/partials/behavior.php:2
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: admin/partials/behavior.php:5
+msgid "Media:"
+msgstr "Mídias:"
+
+#: admin/partials/behavior.php:6
+msgid "Skip media"
+msgstr "Ignorar mídias"
+
+#: admin/partials/behavior.php:9
+msgid "Import first image:"
+msgstr "Importar primeira imagem:"
+
+#: admin/partials/behavior.php:10
+msgid "The first image will be kept in the post content"
+msgstr "A primeira imagem será mantida no post"
+
+#: admin/partials/behavior.php:10
+msgid "as is"
+msgstr "como é"
+
+#: admin/partials/behavior.php:11
+msgid "The first image will be removed from the post content and imported as the featured image only"
+msgstr "A primeira imagem será removida da postagem"
+
+#: admin/partials/behavior.php:11
+msgid "as featured only"
+msgstr "como destaque apenas"
+
+#: admin/partials/behavior.php:12
+msgid "The first image will be kept in the post content and imported as the featured image"
+msgstr "A primeira imagem será mantida no post"
+
+#: admin/partials/behavior.php:12
+msgid "as is and as featured"
+msgstr "como é e como destaque"
+
+#: admin/partials/behavior.php:14
+msgid "Import external media"
+msgstr "Importar mídia externa"
+
+#: admin/partials/behavior.php:16
+msgid "Checked: download the media with their full path in order to import media with identical names."
+msgstr "Verificado: faça o download da mídia com o caminho completo para importar mídia com nomes idênticos."
+
+#: admin/partials/behavior.php:16
+msgid "Import media with duplicate names"
+msgstr "Importar mídia com nomes duplicados"
+
+#: admin/partials/behavior.php:18
+msgid "Checked: download the media even if it has already been imported. Unchecked: Download only media which were not already imported."
+msgstr "Verificado: baixe a mídia mesmo que já tenha sido importada. Desmarcado: faça o download somente de mídia que ainda não foi importada."
+
+#: admin/partials/behavior.php:18
+msgid "Force media import. Keep unchecked except if you had previously some media download issues."
+msgstr "Forçar importação de mídia. Mantenha-o desmarcado, exceto se você já teve alguns problemas de download de mídia."
+
+#: admin/partials/behavior.php:20
+msgid "Don't include the first image into the product gallery"
+msgstr "Não inclua a primeira imagem na galeria de produtos"
+
+#: admin/partials/behavior.php:22
+msgid "Timeout for each media:"
+msgstr "Tempo limite para cada mídia:"
+
+#: admin/partials/behavior.php:23
+msgid "seconds"
+msgstr "segundo"
+
+#: admin/partials/behavior.php:26
+msgid "Import prices:"
+msgstr "Preços de importação:"
+
+#: admin/partials/behavior.php:28
+msgid "excluding tax"
+msgstr "excluindo impostos"
+
+#: admin/partials/behavior.php:29
+msgid "including tax <small>in this case, you must define a default tax rate before running the import</small>"
+msgstr "incluindo o imposto <small> neste caso, você deve definir uma taxa de imposto padrão antes de executar a importação </ small>"
+
+#: admin/partials/behavior.php:32
+msgid "Sale prices:"
+msgstr "Preços de venda:"
+
+#: admin/partials/behavior.php:34
+msgid "use the special price as sale price"
+msgstr "use o preço de desconto como preço de venda"
+
+#: admin/partials/behavior.php:35
+msgid "use the manufacturer's suggested retail price as regular price"
+msgstr "use o preço sugerido pelo fabricante como preço"
+
+#: admin/partials/behavior.php:39
+msgid "Stock management:"
+msgstr "Gestão de estoque:"
+
+#: admin/partials/behavior.php:41
+msgid "Enable stock management"
+msgstr "Ativar gerenciamento de estoque"
+
+#: admin/partials/behavior.php:45
+msgid "Create pages:"
+msgstr "Crie páginas:"
+
+#: admin/partials/behavior.php:46
+msgid "Import as pages instead of blog posts (without categories)"
+msgstr "Importar como páginas em vez de postagens de blog (sem categorias)"
+
+#: admin/partials/database-info.php:2
+msgid "WordPress database"
+msgstr "Banco de dados WordPress"
+
+#: admin/partials/empty-content.php:6
+msgid "If you want to restart the import from scratch, you must empty the WordPress content with the button hereafter."
+msgstr "Se você quiser reiniciar a importação do zero, você deve esvaziar o WordPress."
+
+#: admin/partials/empty-content.php:7
+msgid "Remove only previously imported data"
+msgstr "Remover apenas dados importados anteriormente"
+
+#: admin/partials/empty-content.php:8
+msgid "Remove all WordPress content"
+msgstr "Remova todo o conteúdo do WordPress"
+
+#: admin/partials/empty-content.php:9
+msgid "Empty WordPress content"
+msgstr "Limpar conteúdo do WordPress"
+
+#: admin/partials/extra-features.php:2
+msgid "Do you need extra features?"
+msgstr "Você precisa de recursos extras?"
+
+#: admin/partials/extra-features.php:4
+msgid "users migration"
+msgstr "migração de usuários"
+
+#: admin/partials/extra-features.php:5
+msgid "customers migration"
+msgstr "migração de clientes"
+
+#: admin/partials/extra-features.php:6
+msgid "orders migration"
+msgstr "migração de pedidos"
+
+#: admin/partials/extra-features.php:7
+msgid "update the products stocks and orders"
+msgstr "atualizar os estoques e pedidos de produtos"
+
+#: admin/partials/extra-features.php:8
+msgid "attributes migration"
+msgstr "migração de atributos"
+
+#: admin/partials/extra-features.php:9
+msgid "variations migration"
+msgstr "variações de migração"
+
+#: admin/partials/extra-features.php:10
+msgid "up sell and cross sell migration"
+msgstr "migração de up-sell e cross-sell"
+
+#: admin/partials/extra-features.php:11
+msgid "ratings and reviews migration"
+msgstr "classificação e revisão de migração"
+
+#: admin/partials/extra-features.php:12
+msgid "coupons migration"
+msgstr "cupões de migração"
+
+#: admin/partials/extra-features.php:13
+msgid "SEO metadata"
+msgstr "Metadados de SEO"
+
+#: admin/partials/extra-features.php:14
+msgid "SEO: redirect the Magento URLs"
+msgstr "SEO: redirecionar os URLs do Magento"
+
+#: admin/partials/extra-features.php:15
+msgid "multistores"
+msgstr "multi-lojas"
+
+#: admin/partials/extra-features.php:16
+msgid "automatic import triggered from cron (for dropshipping for example)"
+msgstr "importação automática desencadeada do cron (para dropshipping por exemplo)"
+
+#: admin/partials/extra-features.php:17
+msgid "multilingual content migration to WPML"
+msgstr "migração de conteúdo multilíngue para o WPML"
+
+#: admin/partials/extra-features.php:18
+msgid "customer groups migration"
+msgstr "migração de grupos de clientes"
+
+#: admin/partials/extra-features.php:19
+msgid "manufacturers migration"
+msgstr "migração de fabricantes"
+
+#: admin/partials/extra-features.php:20
+msgid "product options migration"
+msgstr "migração de opções de produtos"
+
+#: admin/partials/extra-features.php:21
+msgid "cost of goods migration"
+msgstr "migração dos custos das mercadorias"
+
+#: admin/partials/extra-features.php:22
+msgid "custom order numbers migration"
+msgstr "migração de números de pedido personalizados"
+
+#: admin/partials/extra-features.php:23
+msgid "custom order statuses migration"
+msgstr "migração de status de pedidos personalizados"
+
+#: admin/partials/extra-features.php:24
+msgid "bundle products migration"
+msgstr "migração de produtos bundle"
+
+#: admin/partials/extra-features.php:29
+msgid "This feature needs an add-on in addition to the Premium version."
+msgstr "Esse recurso precisa de um complemento além da versão Premium."
+
+#: admin/partials/logger.php:3
+msgid "Log"
+msgstr "Log"
+
+#: admin/partials/logger.php:4
+msgid "Log auto-refresh"
+msgstr "Atualização automática de log"
+
+#: admin/partials/paypal-donate.php:1
+#, php-format
+msgid "If you found this plugin useful and it saved you many hours or days, please rate it on %s."
+msgstr "Se você achou este plug-in útil e o salvou várias vezes ou dias, avalie-o em %s ."
+
+#: admin/partials/paypal-donate.php:1
+msgid "You can also make a donation using the button below."
+msgstr "Você também pode fazer uma doação usando o botão abaixo."
+
+#: admin/partials/settings.php:2
+msgid "Automatic removal:"
+msgstr "Remoção automática:"
+
+#: admin/partials/settings.php:3
+msgid "Automatically remove all the WordPress content before each import"
+msgstr "Remover automaticamente todo o conteúdo do WordPress antes de cada importação"
+
+#: admin/partials/settings.php:6
+msgid "Magento web site parameters"
+msgstr "Parâmetros do site Magento"
+
+#: admin/partials/settings.php:9
+msgid "URL of the live Magento web site"
+msgstr "URL do site do Magento ao vivo"
+
+#: admin/partials/settings.php:11
+msgid "This field is used to pull the media off that site. It must contain the URL of the original site."
+msgstr "Este campo é usado para retirar a mídia desse site. Deve conter o URL do site original."
+
+#: admin/partials/settings.php:15
+msgid "Magento database parameters"
+msgstr "Parâmetros do banco de dados Magento"
+
+#: admin/partials/settings.php:18
+msgid "Hostname"
+msgstr "Hostname"
+
+#: admin/partials/settings.php:22
+msgid "Port"
+msgstr "Porta"
+
+#: admin/partials/settings.php:26
+msgid "Database"
+msgstr "Banco de dados"
+
+#: admin/partials/settings.php:30
+msgid "Username"
+msgstr "Usuário"
+
+#: admin/partials/settings.php:34
+msgid "Password"
+msgstr "Senha"
+
+#: admin/partials/settings.php:38
+msgid "Magento table prefix"
+msgstr "Prefixo da tabela Magento"
+
+#: admin/partials/settings.php:43
+msgid "Test the database connection"
+msgstr "Testar a conexão do banco de dados"
+
+#: includes/class-fg-magento-to-woocommerce.php:207
+msgid "Import"
+msgstr "Importar"

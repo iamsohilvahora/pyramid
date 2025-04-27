@@ -1,0 +1,22 @@
+#wpbody {
+  overflow: auto !important;
+}
+
+iframe {
+  overflow: hidden !important;
+}
+
+.f-text {
+  width: 25%;
+  padding: 3px 7px;
+}
+
+.setting-hint {
+  margin-top: 10px;
+  color: #5f5f5f;
+}
+
+#c2cMigrationToken {
+  display: block;
+  width: 25%;
+}

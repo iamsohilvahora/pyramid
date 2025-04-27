@@ -1,0 +1,28 @@
+<?php wp_enqueue_style('c2c-main-style', plugin_dir_url(CART2CART_PLUGIN_ROOT_DIR . '/dir') . 'css/style.css'); ?>
+<div class="wrap">
+  <input type="hidden" name="action" value="setToken">
+  <label >
+    Cart2Cart Migration Token
+    <input type="text" id="c2cMigrationToken" name="c2cMigrationToken" value="<?= $this->token; ?>" />
+  </label>
+  <button type="button" id="saveC2cTokenBtn" class="button">Save</button>
+  <div class="c2c-message"></div>
+</div>
+<script>
+  jQuery(document).ready(function () {
+    jQuery('#saveC2cTokenBtn').click(function () {
+      jQuery.post(ajaxurl, {
+          action : 'setToken',
+          c2cMigrationToken : jQuery('#c2cMigrationToken').val()
+        },
+        function(response) {
+          response = JSON.parse(response);
+
+          jQuery('.c2c-message').html(response.message).fadeIn();
+          setTimeout(function () {
+            jQuery('.c2c-message').fadeOut();
+          }, 3000);
+        });
+    });
+  });
+</script>
